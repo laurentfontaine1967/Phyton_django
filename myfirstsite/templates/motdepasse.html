@@ -1,0 +1,17 @@
+<!-- FILEPATH: /c:/Users/laure/OneDrive/Bureau/formation python/Django/myfirstsite/myfirstsite/templates/motdepasse.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Page</title>
+  </head>
+  <body>
+    <h1>Password Page</h1>
+    <form method="post">
+      {% csrf_token %}
+      <label for="password">Enter password:</label>
+      <input type="text" name="motdepasse" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

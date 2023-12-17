@@ -1,0 +1,19 @@
+<!-- FILEPATH: /c:/Users/laure/OneDrive/Bureau/formation python/Django/myfirstsite/myfirstsite/templates/annuaire.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Annuaire</title>
+  </head>
+  <body>
+    <h1>vos Contacts</h1>
+    
+    <ul>
+      {% for nom in contact_list %}
+    
+      <h3>contact :{{ nom }} </h3>
+     
+      {% endfor %}
+    <!-- Add your content here -->
+  </body>
+</html>
